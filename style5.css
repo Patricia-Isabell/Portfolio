@@ -131,12 +131,12 @@ main {
 }
 .front-window-main {
   object-fit: cover;
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--almost-black);
   background-color: var(--almost-black);
-  background: url(./Bilder/image/annanas-1004251_1280.jpg)center/cover;
+  background: url(./Bilder/image/annanas-1004251_1280.jpg) center/cover;
   backdrop-filter: brightness(60%);
 }
 /* Style for each grid item */
@@ -232,7 +232,7 @@ h1 {
 }
 
 .front-window-main1 {
-  background-image: url(./Bilder/image/background.jpg)
+  background-image: url(./Bilder/image/background.jpg);
   height: 2;
 }
 .front-window-main2 {
@@ -455,13 +455,13 @@ h2 {
 
 li {
   color: var(--aquamarine);
-   font-family: "Bungee", serif;
+  font-family: "Bungee", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 26px;
   text-transform: uppercase;
   text-align: center;
-  }
+}
 
 /* 
 .footer-about ul {
